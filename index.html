@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 17th Birthday Fadil Abdila</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Courier Prime', monospace, Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        
+        .message-box {
+            transition: all 0.3s ease;
+        }
+        
+        .message-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .birthday-card {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-blue-50 to-purple-50">
+    <div class="container mx-auto px-4 py-12">
+        <!-- Birthday Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Happy 17th Birthday</h1>
+            <h2 class="text-3xl md:text-4xl font-semibold text-blue-600">Fadil Abdila</h2>
+            <div class="w-24 h-1 bg-purple-500 mx-auto mt-4 rounded-full"></div>
+        </div>
+        
+        <!-- Birthday Card -->
+        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden birthday-card mb-12">
+            <div class="p-8">
+                <p class="text-gray-700 text-lg mb-6">
+                    Selamat ulang tahun yang ke-17! Semoga di usia yang semakin dewasa ini, kamu diberikan kesehatan, kebahagiaan, dan kesuksesan dalam segala hal yang kamu lakukan.
+                </p>
+                <p class="text-gray-700 text-lg">
+                    Semoga tahun ini menjadi tahun terbaik dalam hidupmu sejauh ini, dan tahun-tahun mendatang akan membawa lebih banyak kebahagiaan dan pencapaian.
+                </p>
+            </div>
+            <div class="bg-blue-50 px-8 py-4">
+                <p class="text-blue-600 font-medium">17 tahun sudah berlalu, dan petualangan baru menanti!</p>
+            </div>
+        </div>
+        
+        <!-- Messages Section -->
+        <div class="max-w-4xl mx-auto">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Pesan dari seseorang..</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Message from Aldi -->
+                <div class="bg-white rounded-lg shadow-md p-6 message-box">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">A</div>
+                        <h4 class="ml-3 font-bold text-gray-800">Aldi</h4>
+                    </div>
+                    <p class="text-gray-700">
+                        "HBD nyet padil udh nambah umur aja selamat berkurang umur hidup... Doa sendiri udh gede ya 😁"
+                    </p>
+                </div>
+                
+                <!-- Message from Rivaldo -->
+                <div class="bg-white rounded-lg shadow-md p-6 message-box">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-purple-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">R</div>
+                        <h4 class="ml-3 font-bold text-gray-800">Rivaldo</h4>
+                    </div>
+                    <p class="text-gray-700">
+                        "Met ultah woi, sorry gua lupa jer.. ini br kelar buat webnya wkwk.. moga makin panjang dan tahan lama ya.. (umurnya). Oh ya, gua ada hadiah buat lu. janlup di reedem buat event dm kuning dah yak."
+                    </p>
+                    <a href="https://giftcard.voucherku.com/redeem/DOBXOFCDAR935968761B73E2E7E" target="_blank" class="mt-4 inline-block bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                        Buka Hadiah? Klik disini!
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Footer -->
+        <div class="mt-16 text-center text-gray-500 text-sm">
+            <p>Created by ChyaaIshere, Github.<p>
+    </div>
+</body>
+</html>
